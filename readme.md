@@ -39,9 +39,9 @@ select st_astext(way) from planet_osm_polygon where name = 'Derby';
 ```
 # Understanding the OSM database
 
-As far as I understand, the planet_osm_polygon table contains the most important data: the polygon that represents a region (column: way), its name (column: name), its administrative level (column: admin_level, more on that later) and the id (column: osm_id)
+As far as I understand, the planet_osm_polygon table contains the most important data: the polygon that represents a region (column: way), its name (column: name), its administrative level (column: admin_level, more on that later) and the id (column: osm_id).
 
-In Brazil, an administrative level 8 region is usually a city; level 9 or 10 representt a neighborhood
+In Brazil, an administrative level 8 region is usually a city; level 9 or 10 represents a neighborhood.
 
 # Getting the polygon for a given region
 
