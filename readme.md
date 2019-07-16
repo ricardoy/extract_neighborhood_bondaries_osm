@@ -17,7 +17,7 @@ sudo docker run -d --name postgis -e POSTGRES_PASSWORD=password -e POSTGRES_DB=g
 3. Install osm2pgsql and run:
 
 ```
-osm2pgsql -U user -W brazil-latest.osm.pbf -P 5432 -H 127.0.0.1 -C 4000 --latlong
+osm2pgsql -U user -W brazil-latest.osm.pbf -P 5432 -H 127.0.0.1 -C 4000 --latlong -d gis
 ```
 
 4. Update your $HOME/.pgpass file, adding the credentials as following:
